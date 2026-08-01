@@ -4,10 +4,10 @@ extends CharacterBody2D
 # CONFIGURAÇÕES
 #=========================
 
-@export var speed: float = 250.0
-@export var jump_velocity: float = -500.0
+@export var speed: float = 190.0
+@export var jump_velocity: float = -300.0
 
-@export var slide_speed: float = 400.0
+@export var slide_speed: float = 200.0
 @export var slide_duration: float = 0.45
 
 @export var shoot_duration: float = 0.12

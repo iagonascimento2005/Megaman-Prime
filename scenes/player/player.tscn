@@ -227,17 +227,18 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_1nrka"]
-size = Vector2(10, 27)
+size = Vector2(18, 27)
 
 [node name="player" type="CharacterBody2D" unique_id=647845875]
 script = ExtResource("1_dovo2")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1637189568]
+position = Vector2(-3, 0)
 sprite_frames = SubResource("SpriteFrames_k01mo")
 animation = &"run_shoot"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=296590378]
-position = Vector2(1, 2.5)
+position = Vector2(-1, 2.5)
 shape = SubResource("RectangleShape2D_1nrka")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=2022068368]
