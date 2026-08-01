@@ -21,8 +21,11 @@ aseprite_executable_path="C:/Users/IagoNascimento/Documents/Aseprite.Build.16493
 
 [display]
 
+window/size/viewport_width=256
+window/size/viewport_height=240
+window/size/mode=2
+window/size/initial_screen=213
 window/stretch/mode="canvas_items"
-window/stretch/aspect="expand"
 
 [editor_plugins]
 

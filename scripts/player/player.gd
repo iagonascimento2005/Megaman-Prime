@@ -169,9 +169,9 @@ func handle_animations():
 				$AnimatedSprite2D.play("jump")
 
 		if velocity.y < 0:
-			$AnimatedSprite2D.frame = 1
+			$AnimatedSprite2D.frame = 0
 		else:
-			$AnimatedSprite2D.frame = 3
+			$AnimatedSprite2D.frame = 1
 
 		return
 
