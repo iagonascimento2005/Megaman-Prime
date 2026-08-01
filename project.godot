@@ -11,7 +11,7 @@ config_version=5
 [application]
 
 config/name="Megaman Prime"
-run/main_scene="uid://ov8hvfgk58v2"
+run/main_scene="uid://dlupd3ifnepkn"
 config/features=PackedStringArray("4.7", "GL Compatibility")
 config/icon="res://icon.svg"
 
