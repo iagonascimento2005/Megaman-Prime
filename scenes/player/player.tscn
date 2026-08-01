@@ -262,9 +262,18 @@ script = ExtResource("1_dovo2")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1637189568]
 sprite_frames = SubResource("SpriteFrames_k01mo")
+<<<<<<< Updated upstream
 animation = &"run_shoot"
 frame_progress = 0.47308537
+=======
+animation = &"idle"
+>>>>>>> Stashed changes
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=296590378]
 position = Vector2(1, 0)
 shape = SubResource("RectangleShape2D_1nrka")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=890656986]
+limit_left = 1
+limit_top = 1
+limit_bottom = 648

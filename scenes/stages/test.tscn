@@ -17,7 +17,6 @@ position = Vector2(568, 425.00003)
 scale = Vector2(3, 3)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1712774334]
-visible = false
 position = Vector2(579, 328)
 shape = SubResource("RectangleShape2D_57qmd")
 debug_color = Color(0.9457472, 5.198121e-06, 0.5933182, 0.41960785)
