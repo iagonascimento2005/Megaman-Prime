@@ -244,3 +244,6 @@ shape = SubResource("RectangleShape2D_1nrka")
 [node name="Camera2D" type="Camera2D" parent="." unique_id=2022068368]
 limit_left = 0
 limit_bottom = 164
+
+[node name="Marker2D" type="Marker2D" parent="." unique_id=656170522]
+position = Vector2(15, 4)
